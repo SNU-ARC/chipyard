@@ -1,9 +1,9 @@
 [submodule "rocket-chip"]
 	path = generators/rocket-chip
-	url = https://github.com/ucb-bar/rocket-chip.git
+	url = https://github.com/SNU-ARC/rocket-chip.git
 [submodule "testchipip"]
 	path = generators/testchipip
-	url = https://github.com/ucb-bar/testchipip.git
+	url = https://github.com/SNU-ARC/testchipip.git
 [submodule "barstools"]
 	path = tools/barstools
 	url = https://github.com/ucb-bar/barstools.git
@@ -18,22 +18,22 @@
 	url = https://github.com/ucb-bar/riscv-torture.git
 [submodule "generators/boom"]
 	path = generators/boom
-	url = https://github.com/riscv-boom/riscv-boom.git
+	url = https://github.com/SNU-ARC/riscv-boom.git
 [submodule "generators/sifive-blocks"]
 	path = generators/sifive-blocks
-	url = https://github.com/sifive/sifive-blocks.git
+	url = https://github.com/SNU-ARC/sifive-blocks.git
 [submodule "generators/hwacha"]
 	path = generators/hwacha
-	url = https://github.com/ucb-bar/hwacha.git
+	url = https://github.com/SNU-ARC/hwacha.git
 [submodule "sims/firesim"]
 	path = sims/firesim
-	url = https://github.com/firesim/firesim.git
+	url = https://github.com/SNU-ARC/firesim.git
 [submodule "generators/icenet"]
 	path = generators/icenet
-	url = https://github.com/firesim/icenet.git
+	url = https://github.com/SNU-ARC/icenet.git
 [submodule "generators/block-inclusivecache-sifive"]
 	path = generators/sifive-cache
-	url = https://github.com/sifive/block-inclusivecache-sifive.git
+	url = https://github.com/SNU-ARC/block-inclusivecache-sifive.git
 [submodule "toolchains/riscv-tools/riscv-gnu-toolchain"]
 	path = toolchains/riscv-tools/riscv-gnu-toolchain
 	url = https://github.com/riscv/riscv-gnu-toolchain.git
@@ -115,13 +115,13 @@
 	url = https://github.com/firesim/FireMarshal.git
 [submodule "generators/cva6"]
 	path = generators/cva6
-	url = https://github.com/ucb-bar/cva6-wrapper.git
+	url = https://github.com/SNU-ARC/cva6-wrapper.git
 [submodule "tools/DRAMSim2"]
 	path = tools/DRAMSim2
 	url = https://github.com/firesim/DRAMSim2.git
 [submodule "generators/nvdla"]
 	path = generators/nvdla
-	url = https://github.com/ucb-bar/nvdla-wrapper.git
+	url = https://github.com/SNU-ARC/nvdla-wrapper.git
 [submodule "software/nvdla-workload"]
 	path = software/nvdla-workload
 	url = https://github.com/ucb-bar/nvdla-workload.git
