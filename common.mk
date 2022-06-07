@@ -95,7 +95,8 @@ endif
 $(build_dir):
 	mkdir -p $@
 
-$(BOOTROM_TARGETS): $(build_dir)/bootrom.%.img: $(TESTCHIP_RSRCS_DIR)/testchipip/bootrom/bootrom.%.img | $(build_dir)
+#$(BOOTROM_TARGETS): $(build_dir)/bootrom.%.img: $(TESTCHIP_RSRCS_DIR)/testchipip/bootrom/bootrom.%.img | $(build_dir)
+$(BOOTROM_TARGETS): $(build_dir)/bootrom.%.img: $(ROCKETCHIP_DIR)/bootrom/bootrom.%.img | $(build_dir)
 	cp -f $< $@
 
 #########################################################################################
